@@ -16,10 +16,10 @@ This project is all about discovering fascinating patterns in the letters of sta
 - **Redbridge**: While it doesn’t contain `A`, `N`, `O`, `T`, `S`, `L`, or `C`, we couldn't come up with a meaningful word that it fully avoids. It's a unique outlier in its own right.
 - **Bank** and **Barking**: These two stations are the only ones that pass the "CLOTHES" test—no `C`, `L`, `O`, `T`, `H`, `E`, or `S` in their names.
 - **Belsize Park**: The only station on the network with a `Z`.
-- **St James Park**, **Willesden Junction**, and **St John's Wood**: These three stations are the only ones that feature a `J`. If you’re a fan of this letter, these are your stops.
+- **St James's Park**, **Willesden Junction**, and **St John's Wood**: These three stations are the only ones that feature a `J`. If you’re a fan of this letter, these are your stops.
 - **Vauxhall**: The only station that boasts both an `X` and a `V`, making it doubly rare and unique on the network.
 - **Brixton**, **Uxbridge**, **Croxley**, **Oxford Circus**, and **Vauxhall**: The exclusive club of stations with an `X`. These stations add a special flair to the Tube map.
-- **Euston Square**, **Russell Square**, **Sloane Square**, **Queens Park**, **Queensway**, and **Kingsbury**: The letter `Q` is reserved for stations with "Square" or "Queen" in their names, almost as if it’s part of a royal decree!
+- **Euston Square**, **Russell Square**, **Sloane Square**, **Leicester Square**, **Queen's Park**, **Queensway**, and **Queensbury**: The letter `Q` seems to be reserved only for stations with "Square" or "Queen" in their names.
 - **Oval**: The station with the fewest unique letters—just 4 distinct letters make up its name. A minimalist masterpiece.
 - **Heathrow Terminals 2 & 3**: The station with the most unique letters on the network—an impressive 15 distinct letters. A true alphabet champion!
   
