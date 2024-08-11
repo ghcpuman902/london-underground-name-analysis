@@ -44,6 +44,5 @@ This project is all about discovering fascinating patterns in the letters of sta
 ### 📝 Letter Frequency in Station Names
 `E`, `R`, `A`, `N`, `O`, `T`, `S`, `L`, `I`, `H`, `D`, `W`, `G`, `C`, `U`, `B`, `M`, `P`, `K`, `Y`, `F`, `V`, `Q`, `X`, `J`, `Z`
 
----
-
-Thanks for joining the fun! If you’re curious to see more or just want to chat about it, don’t forget to check out the original [Threads post](https://www.threads.net/@bowlofchalk/post/C-hKosIopxE)!
+### Coming soon
+Interactive version and version including DLR names and Overground names
