@@ -15,7 +15,7 @@ def create_boolean_matrix(station_names):
 
 def generate_heatmap(matrix, title, output_path):
     plt.figure(figsize=(20, 50))
-    sns.heatmap(matrix.astype(int), cbar=False, cmap="viridis", linewidths=.5)
+    sns.heatmap(matrix.astype(int), cbar=False, cmap="coolwarm", linewidths=.5)  # Updated cmap for LDN UDG theme
     plt.title(title)
     plt.savefig(output_path, bbox_inches='tight')
     plt.close()
@@ -38,6 +38,12 @@ def main():
     sorted_boolean_matrix = boolean_matrix[sorted_letters].sort_values(by=sorted_letters, ascending=False)
     generate_heatmap(sorted_boolean_matrix, 'Frequency Sorted Station Names', 
                      'london_underground_station_heatmap_frequency.png')
+
+    # Reverse frequency sorted heatmap (rarest letters at the top)
+    reverse_sorted_letters = sorted(letter_frequency, key=letter_frequency.get)
+    reverse_sorted_boolean_matrix = boolean_matrix[reverse_sorted_letters].sort_values(by=reverse_sorted_letters, ascending=True)
+    generate_heatmap(reverse_sorted_boolean_matrix, 'Reverse Frequency Sorted Station Names', 
+                     'london_underground_station_heatmap_reverse_frequency.png')
 
 if __name__ == '__main__':
     main()
