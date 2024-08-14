@@ -1,5 +1,13 @@
 # 🚇 London Underground Name Fun Project: A Journey Through the Alphabet
 
+**🎯 Explore this chart interactively!**
+
+<img width="1432" alt="Screenshot 2024-08-14 at 04 46 51" src="https://github.com/user-attachments/assets/0dba3315-2d69-4f53-b864-c44ee916ccd0">
+
+👉 **[Visit the interactive chart here!](https://manglekuo.com/works/london-underground-name-analysis)** 👈
+
+---
+
 [👋 Hello, Threads Community!](https://www.threads.net/@bowlofchalk/post/C-hKosIopxE) 🎉
 
 Welcome to a quirky and fun exploration of London Underground station names! If you’ve ever pondered the oddities of station name letters—or found yourself wondering about *MACKEREL*—you’re in for a treat. Spoiler alert: **St John's Wood** is the only station on the Tube without any letters from *MACKEREL*. But there’s so much more to uncover!
