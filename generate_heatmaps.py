@@ -25,9 +25,25 @@ def create_boolean_matrix_from_binary(station_binaries, station_names):
 
 def generate_heatmap(matrix, title, output_path):
     plt.figure(figsize=(20, 50))
-    sns.heatmap(matrix.astype(int), cbar=False, cmap="coolwarm", linewidths=.5)
-    plt.title(title)
-    plt.savefig(output_path, bbox_inches='tight')
+    ax = sns.heatmap(matrix.astype(int), cbar=False, cmap="coolwarm", linewidths=.5)
+    plt.title(title, fontsize=16, pad=20)
+    
+    # Add letter labels at the top
+    ax.xaxis.tick_top()
+    ax.xaxis.set_label_position('top')
+    plt.xticks(fontsize=8, rotation=0)
+    
+    # Add letter labels at the bottom
+    ax2 = ax.twiny()
+    ax2.set_xlim(ax.get_xlim())
+    ax2.set_xticks(ax.get_xticks())
+    ax2.set_xticklabels(ax.get_xticklabels())
+    plt.xticks(fontsize=8, rotation=0)
+    
+    # Adjust layout to prevent cutting off labels
+    plt.tight_layout()
+    
+    plt.savefig(output_path, bbox_inches='tight', dpi=300)
     plt.close()
 
 def main():
