@@ -1,0 +1,1287 @@
+[
+    {
+        "target_station": "Bank",
+        "unique_filters": [
+            {
+                "filter": "EROL",
+                "top_words": [
+                    "the world",
+                    "role"
+                ]
+            }
+        ],
+        "unique_filters_execution_time": 0.049408912658691406,
+        "narrowed_down_filters": [
+            {
+                "filter": "GLRE",
+                "matching_stations": [
+                    "Acton Town",
+                    "St John's Wood",
+                    "Oakwood",
+                    "Bank"
+                ],
+                "top_words": [
+                    "struggle",
+                    "religious"
+                ]
+            },
+            {
+                "filter": "GREO",
+                "matching_stations": [
+                    "St Paul's",
+                    "Vauxhall",
+                    "Hainault",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "together",
+                    "progress"
+                ]
+            },
+            {
+                "filter": "UHEO",
+                "matching_stations": [
+                    "Barking",
+                    "Blackfriars",
+                    "Barbican",
+                    "Bank"
+                ],
+                "top_words": [
+                    "House",
+                    "hopefully"
+                ]
+            },
+            {
+                "filter": "UREO",
+                "matching_stations": [
+                    "Gants Hill",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "you're",
+                    "course"
+                ]
+            },
+            {
+                "filter": "UEOC",
+                "matching_stations": [
+                    "Barking",
+                    "Gants Hill",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "course",
+                    "couple"
+                ]
+            },
+            {
+                "filter": "UEOI",
+                "matching_stations": [
+                    "Archway",
+                    "Chalk Farm",
+                    "Canary Wharf",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "outside",
+                    "previous"
+                ]
+            },
+            {
+                "filter": "FEOI",
+                "matching_stations": [
+                    "St Paul's",
+                    "Vauxhall",
+                    "Archway",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "office",
+                    "officers"
+                ]
+            },
+            {
+                "filter": "LJRE",
+                "matching_stations": [
+                    "Canning Town",
+                    "Paddington",
+                    "Acton Town",
+                    "Oakwood",
+                    "Bank"
+                ],
+                "top_words": [
+                    "jewelry",
+                    "jewellery"
+                ]
+            },
+            {
+                "filter": "LHRE",
+                "matching_stations": [
+                    "Canning Town",
+                    "Paddington",
+                    "Acton Town",
+                    "Oakwood",
+                    "Bank"
+                ],
+                "top_words": [
+                    "the world",
+                    "herself"
+                ]
+            },
+            {
+                "filter": "LHEO",
+                "matching_stations": [
+                    "Barking",
+                    "Kingsbury",
+                    "Barbican",
+                    "Finsbury Park",
+                    "Bank"
+                ],
+                "top_words": [
+                    "the world",
+                    "whole"
+                ]
+            },
+            {
+                "filter": "LPRE",
+                "matching_stations": [
+                    "Canning Town",
+                    "Acton Town",
+                    "St John's Wood",
+                    "Oakwood",
+                    "Bank"
+                ],
+                "top_words": [
+                    "previously",
+                    "powerful"
+                ]
+            },
+            {
+                "filter": "LRET",
+                "matching_stations": [
+                    "Oakwood",
+                    "Bank"
+                ],
+                "top_words": [
+                    "the world",
+                    "result"
+                ]
+            },
+            {
+                "filter": "LRES",
+                "matching_stations": [
+                    "Canning Town",
+                    "Paddington",
+                    "Acton Town",
+                    "Oakwood",
+                    "Bank"
+                ],
+                "top_words": [
+                    "result",
+                    "results"
+                ]
+            },
+            {
+                "filter": "LREC",
+                "matching_stations": [
+                    "Paddington",
+                    "St John's Wood",
+                    "Oakwood",
+                    "Bank"
+                ],
+                "top_words": [
+                    "directly",
+                    "culture"
+                ]
+            },
+            {
+                "filter": "LREW",
+                "matching_stations": [
+                    "Paddington",
+                    "Bank"
+                ],
+                "top_words": [
+                    "the world",
+                    "lower"
+                ]
+            },
+            {
+                "filter": "LRED",
+                "matching_stations": [
+                    "Canning Town",
+                    "Acton Town",
+                    "Bank"
+                ],
+                "top_words": [
+                    "the world",
+                    "directly"
+                ]
+            },
+            {
+                "filter": "LREI",
+                "matching_stations": [
+                    "Acton Town",
+                    "St John's Wood",
+                    "Oakwood",
+                    "Bank"
+                ],
+                "top_words": [
+                    "previously",
+                    "directly"
+                ]
+            },
+            {
+                "filter": "LEOS",
+                "matching_stations": [
+                    "Barking",
+                    "Archway",
+                    "Barbican",
+                    "Canary Wharf",
+                    "Bank"
+                ],
+                "top_words": [
+                    "close",
+                    "previously"
+                ]
+            },
+            {
+                "filter": "LEOY",
+                "matching_stations": [
+                    "Barking",
+                    "Chiswick Park",
+                    "Barbican",
+                    "Bank"
+                ],
+                "top_words": [
+                    "previously",
+                    "employees"
+                ]
+            },
+            {
+                "filter": "LEOC",
+                "matching_stations": [
+                    "Barking",
+                    "Kingsbury",
+                    "Finsbury Park",
+                    "Bank"
+                ],
+                "top_words": [
+                    "police",
+                    "close"
+                ]
+            },
+            {
+                "filter": "LEOW",
+                "matching_stations": [
+                    "Barking",
+                    "Kingsbury",
+                    "Barbican",
+                    "Finsbury Park",
+                    "Bank"
+                ],
+                "top_words": [
+                    "the world",
+                    "lower"
+                ]
+            },
+            {
+                "filter": "LEOI",
+                "matching_stations": [
+                    "Archway",
+                    "Canary Wharf",
+                    "Bank"
+                ],
+                "top_words": [
+                    "police",
+                    "previously"
+                ]
+            },
+            {
+                "filter": "HPRE",
+                "matching_stations": [
+                    "Canning Town",
+                    "Acton Town",
+                    "Oval",
+                    "Oakwood",
+                    "Bank"
+                ],
+                "top_words": [
+                    "sophomore",
+                    "the press"
+                ]
+            },
+            {
+                "filter": "HRET",
+                "matching_stations": [
+                    "Pimlico",
+                    "Oval",
+                    "Oakwood",
+                    "Bank"
+                ],
+                "top_words": [
+                    "their",
+                    "there"
+                ]
+            },
+            {
+                "filter": "HREO",
+                "matching_stations": [
+                    "St Paul's",
+                    "Bank"
+                ],
+                "top_words": [
+                    "other",
+                    "However"
+                ]
+            },
+            {
+                "filter": "HREW",
+                "matching_stations": [
+                    "Pimlico",
+                    "St Paul's",
+                    "Paddington",
+                    "Oval",
+                    "Bank"
+                ],
+                "top_words": [
+                    "where",
+                    "However"
+                ]
+            },
+            {
+                "filter": "HREI",
+                "matching_stations": [
+                    "St Paul's",
+                    "Acton Town",
+                    "Oval",
+                    "Oakwood",
+                    "Bank"
+                ],
+                "top_words": [
+                    "their",
+                    "higher"
+                ]
+            },
+            {
+                "filter": "HEOS",
+                "matching_stations": [
+                    "Kilburn",
+                    "Barking",
+                    "Kilburn Park",
+                    "Barbican",
+                    "Bank"
+                ],
+                "top_words": [
+                    "those",
+                    "House"
+                ]
+            },
+            {
+                "filter": "HEOI",
+                "matching_stations": [
+                    "St Paul's",
+                    "Bank"
+                ],
+                "top_words": [
+                    "choice",
+                    "otherwise"
+                ]
+            },
+            {
+                "filter": "PREO",
+                "matching_stations": [
+                    "Vauxhall",
+                    "Gants Hill",
+                    "Hainault",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "report",
+                    "period"
+                ]
+            },
+            {
+                "filter": "RVEO",
+                "matching_stations": [
+                    "St Paul's",
+                    "Gants Hill",
+                    "Hainault",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "over",
+                    "However"
+                ]
+            },
+            {
+                "filter": "RETO",
+                "matching_stations": [
+                    "Vauxhall",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "other",
+                    "report"
+                ]
+            },
+            {
+                "filter": "REMO",
+                "matching_stations": [
+                    "St Paul's",
+                    "Vauxhall",
+                    "Gants Hill",
+                    "Hainault",
+                    "Bank"
+                ],
+                "top_words": [
+                    "more",
+                    "former"
+                ]
+            },
+            {
+                "filter": "REOS",
+                "matching_stations": [
+                    "Vauxhall",
+                    "Hainault",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "others",
+                    "process"
+                ]
+            },
+            {
+                "filter": "REOX",
+                "matching_stations": [
+                    "St Paul's",
+                    "Gants Hill",
+                    "Hainault",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "explore",
+                    "exposure"
+                ]
+            },
+            {
+                "filter": "REOI",
+                "matching_stations": [
+                    "St Paul's",
+                    "Vauxhall",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "period",
+                    "director"
+                ]
+            },
+            {
+                "filter": "EMOI",
+                "matching_stations": [
+                    "St Paul's",
+                    "Vauxhall",
+                    "Archway",
+                    "Canary Wharf",
+                    "Bank"
+                ],
+                "top_words": [
+                    "movie",
+                    "committee"
+                ]
+            },
+            {
+                "filter": "EOYI",
+                "matching_stations": [
+                    "St Paul's",
+                    "Vauxhall",
+                    "Chalk Farm",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "previously",
+                    "society"
+                ]
+            },
+            {
+                "filter": "EOCI",
+                "matching_stations": [
+                    "St Paul's",
+                    "Vauxhall",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "police",
+                    "office"
+                ]
+            },
+            {
+                "filter": "EOWI",
+                "matching_stations": [
+                    "St Paul's",
+                    "Vauxhall",
+                    "Chalk Farm",
+                    "Balham",
+                    "Bank"
+                ],
+                "top_words": [
+                    "otherwise",
+                    "worried"
+                ]
+            }
+        ],
+        "narrowed_down_filters_execution_time": 0.17891407012939453
+    },
+    {
+        "target_station": "Euston",
+        "unique_filters": [
+            {
+                "filter": "RALHMBPK",
+                "top_words": []
+            },
+            {
+                "filter": "RALIDMPK",
+                "top_words": []
+            },
+            {
+                "filter": "RALIDMKY",
+                "top_words": [
+                    "Dairy Milk"
+                ]
+            },
+            {
+                "filter": "RALDCMPK",
+                "top_words": []
+            },
+            {
+                "filter": "RALDGMKY",
+                "top_words": []
+            },
+            {
+                "filter": "RALWMBPK",
+                "top_words": []
+            },
+            {
+                "filter": "RAHIDMKY",
+                "top_words": []
+            },
+            {
+                "filter": "RAHIMBKY",
+                "top_words": []
+            },
+            {
+                "filter": "RAHDGMKY",
+                "top_words": []
+            },
+            {
+                "filter": "RADWGMKY",
+                "top_words": []
+            },
+            {
+                "filter": "RLDCGMKY",
+                "top_words": []
+            },
+            {
+                "filter": "AHIDCMKY",
+                "top_words": []
+            },
+            {
+                "filter": "AHIDMBKY",
+                "top_words": []
+            }
+        ],
+        "unique_filters_execution_time": 1.539538860321045,
+        "narrowed_down_filters": [],
+        "narrowed_down_filters_execution_time": 0.1770801544189453
+    },
+    {
+        "target_station": "Queen's Park",
+        "unique_filters": [
+            {
+                "filter": "OTLHIDGBY",
+                "top_words": [
+                    "Old Blighty"
+                ]
+            },
+            {
+                "filter": "OTLIDGMBY",
+                "top_words": []
+            },
+            {
+                "filter": "OLIDWGMBY",
+                "top_words": []
+            },
+            {
+                "filter": "TLIDCGMBY",
+                "top_words": []
+            }
+        ],
+        "unique_filters_execution_time": 0.512321949005127,
+        "narrowed_down_filters": [],
+        "narrowed_down_filters_execution_time": 0.17859601974487305
+    },
+    {
+        "target_station": "Stanmore",
+        "unique_filters": [
+            {
+                "filter": "LHIDCWGUBK",
+                "top_words": []
+            }
+        ],
+        "unique_filters_execution_time": 1.1607699394226074,
+        "narrowed_down_filters": [],
+        "narrowed_down_filters_execution_time": 0.17655301094055176
+    },
+    {
+        "target_station": "Swiss Cottage",
+        "unique_filters": [],
+        "unique_filters_execution_time": 0.7909948825836182,
+        "narrowed_down_filters": [
+            {
+                "filter": "LHNR",
+                "matching_stations": [
+                    "Eastcote",
+                    "Swiss Cottage",
+                    "Oakwood"
+                ],
+                "top_words": []
+            }
+        ],
+        "narrowed_down_filters_execution_time": 0.1771237850189209
+    },
+    {
+        "target_station": "Westminster",
+        "unique_filters": [
+            {
+                "filter": "AOLHBPV",
+                "top_words": []
+            },
+            {
+                "filter": "AOLDPYV",
+                "top_words": []
+            },
+            {
+                "filter": "AOLCBPV",
+                "top_words": []
+            },
+            {
+                "filter": "AOLBPYV",
+                "top_words": []
+            }
+        ],
+        "unique_filters_execution_time": 0.3520231246948242,
+        "narrowed_down_filters": [],
+        "narrowed_down_filters_execution_time": 0.1775050163269043
+    },
+    {
+        "target_station": "White City",
+        "unique_filters": [
+            {
+                "filter": "RANL",
+                "top_words": [
+                    "normal",
+                    "Journal"
+                ]
+            }
+        ],
+        "unique_filters_execution_time": 0.026882171630859375,
+        "narrowed_down_filters": [
+            {
+                "filter": "ULNA",
+                "matching_stations": [
+                    "White City",
+                    "Woodford",
+                    "Goodge Street",
+                    "Cockfosters",
+                    "Redbridge"
+                ],
+                "top_words": [
+                    "annual",
+                    "Journal"
+                ]
+            },
+            {
+                "filter": "UNOA",
+                "matching_stations": [
+                    "Chigwell",
+                    "White City",
+                    "Temple",
+                    "Redbridge"
+                ],
+                "top_words": [
+                    "around",
+                    "Journal"
+                ]
+            },
+            {
+                "filter": "LNRS",
+                "matching_stations": [
+                    "White City",
+                    "Oakwood",
+                    "Highgate"
+                ],
+                "top_words": [
+                    "Grand Slam",
+                    "landlords"
+                ]
+            },
+            {
+                "filter": "LNOA",
+                "matching_stations": [
+                    "Shepherd's Bush",
+                    "White City",
+                    "Uxbridge",
+                    "Redbridge"
+                ],
+                "top_words": [
+                    "along",
+                    "normal"
+                ]
+            },
+            {
+                "filter": "LNSA",
+                "matching_stations": [
+                    "White City",
+                    "Uxbridge",
+                    "Borough",
+                    "Woodford",
+                    "Redbridge"
+                ],
+                "top_words": [
+                    "plans",
+                    "and also"
+                ]
+            },
+            {
+                "filter": "LNAD",
+                "matching_stations": [
+                    "White City",
+                    "Borough",
+                    "Cockfosters"
+                ],
+                "top_words": [
+                    "land",
+                    "and all"
+                ]
+            },
+            {
+                "filter": "LROA",
+                "matching_stations": [
+                    "Epping",
+                    "White City",
+                    "Upney",
+                    "Debden"
+                ],
+                "top_words": [
+                    "popular",
+                    "Labour"
+                ]
+            },
+            {
+                "filter": "BNOA",
+                "matching_stations": [
+                    "Ruislip",
+                    "Chigwell",
+                    "White City",
+                    "West Ruislip",
+                    "Temple"
+                ],
+                "top_words": [
+                    "balloon",
+                    "on board"
+                ]
+            },
+            {
+                "filter": "NPRA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Stockwell",
+                    "Chigwell",
+                    "White City",
+                    "Southfields"
+                ],
+                "top_words": [
+                    "JPMorgan",
+                    "Vanguard Group"
+                ]
+            },
+            {
+                "filter": "NRMA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Stockwell",
+                    "Chigwell",
+                    "White City",
+                    "Southfields"
+                ],
+                "top_words": [
+                    "normal",
+                    "Morgan"
+                ]
+            },
+            {
+                "filter": "NROA",
+                "matching_stations": [
+                    "Chigwell",
+                    "White City",
+                    "Temple"
+                ],
+                "top_words": [
+                    "around",
+                    "normal"
+                ]
+            },
+            {
+                "filter": "NRSA",
+                "matching_stations": [
+                    "Chigwell",
+                    "Pimlico",
+                    "White City",
+                    "Temple"
+                ],
+                "top_words": [
+                    "brands",
+                    "ranks"
+                ]
+            },
+            {
+                "filter": "NRAD",
+                "matching_stations": [
+                    "Stockwell",
+                    "Chigwell",
+                    "Pimlico",
+                    "White City",
+                    "Temple"
+                ],
+                "top_words": [
+                    "around",
+                    "brand"
+                ]
+            },
+            {
+                "filter": "NOSA",
+                "matching_stations": [
+                    "Chigwell",
+                    "White City",
+                    "Uxbridge",
+                    "Temple",
+                    "Redbridge"
+                ],
+                "top_words": [
+                    "and also",
+                    "and so"
+                ]
+            }
+        ],
+        "narrowed_down_filters_execution_time": 0.17615795135498047
+    },
+    {
+        "target_station": "Whitechapel",
+        "unique_filters": [
+            {
+                "filter": "RONGUMY",
+                "top_words": []
+            },
+            {
+                "filter": "ONSGMYV",
+                "top_words": []
+            }
+        ],
+        "unique_filters_execution_time": 0.2307119369506836,
+        "narrowed_down_filters": [],
+        "narrowed_down_filters_execution_time": 0.18113088607788086
+    },
+    {
+        "target_station": "Dollis Hill",
+        "unique_filters": [
+            {
+                "filter": "ERANC",
+                "top_words": [
+                    "cancer",
+                    "appearance"
+                ]
+            },
+            {
+                "filter": "ERANM",
+                "top_words": [
+                    "a number",
+                    "manager"
+                ]
+            },
+            {
+                "filter": "ERANP",
+                "top_words": [
+                    "partner",
+                    "appearance"
+                ]
+            },
+            {
+                "filter": "RANTC",
+                "top_words": [
+                    "percentage",
+                    "entrance"
+                ]
+            }
+        ],
+        "unique_filters_execution_time": 0.11877322196960449,
+        "narrowed_down_filters": [
+            {
+                "filter": "REA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "St John's Wood",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "are",
+                    "after"
+                ]
+            },
+            {
+                "filter": "GREA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "St John's Wood"
+                ],
+                "top_words": [
+                    "great",
+                    "average"
+                ]
+            },
+            {
+                "filter": "UNEA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "Woodford"
+                ],
+                "top_words": [
+                    "a number",
+                    "nature"
+                ]
+            },
+            {
+                "filter": "UREA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "St John's Wood",
+                    "Hillingdon"
+                ],
+                "top_words": [
+                    "quarter",
+                    "February"
+                ]
+            },
+            {
+                "filter": "FREA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "St John's Wood",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "after",
+                    "February"
+                ]
+            },
+            {
+                "filter": "KREA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "St John's Wood",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "market",
+                    "break"
+                ]
+            },
+            {
+                "filter": "QREA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "St John's Wood",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "quarter",
+                    "quarterback"
+                ]
+            },
+            {
+                "filter": "BREA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "St John's Wood",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "February",
+                    "break"
+                ]
+            },
+            {
+                "filter": "JREA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "juggernaut",
+                    "Jarrett"
+                ]
+            },
+            {
+                "filter": "NPRE",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Vauxhall",
+                    "Oval",
+                    "Oakwood",
+                    "Balham"
+                ],
+                "top_words": [
+                    "per cent",
+                    "percent"
+                ]
+            },
+            {
+                "filter": "NPRA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Stockwell",
+                    "Chigwell",
+                    "White City",
+                    "Southfields"
+                ],
+                "top_words": [
+                    "partner",
+                    "appearance"
+                ]
+            },
+            {
+                "filter": "NREA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico"
+                ],
+                "top_words": [
+                    "near",
+                    "range"
+                ]
+            },
+            {
+                "filter": "NRTM",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Chigwell",
+                    "Vauxhall",
+                    "Oval",
+                    "Oakwood"
+                ],
+                "top_words": [
+                    "treatment",
+                    "agreement"
+                ]
+            },
+            {
+                "filter": "NRTA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Chigwell",
+                    "Pimlico"
+                ],
+                "top_words": [
+                    "treatment",
+                    "partner"
+                ]
+            },
+            {
+                "filter": "NRMA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Stockwell",
+                    "Chigwell",
+                    "White City",
+                    "Southfields"
+                ],
+                "top_words": [
+                    "a number",
+                    "manager"
+                ]
+            },
+            {
+                "filter": "NRAC",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Southfields",
+                    "Temple"
+                ],
+                "top_words": [
+                    "cancer",
+                    "appearance"
+                ]
+            },
+            {
+                "filter": "NRAW",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "Southfields",
+                    "Temple"
+                ],
+                "top_words": [
+                    "new year",
+                    "warrant"
+                ]
+            },
+            {
+                "filter": "PREA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "St John's Wood",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "partner",
+                    "appear"
+                ]
+            },
+            {
+                "filter": "RVEA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "St John's Wood",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "average",
+                    "an average"
+                ]
+            },
+            {
+                "filter": "RETA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "Hillingdon"
+                ],
+                "top_words": [
+                    "after",
+                    "quarter"
+                ]
+            },
+            {
+                "filter": "REZA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "St John's Wood",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "Azure",
+                    "Razer"
+                ]
+            },
+            {
+                "filter": "REMA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "St John's Wood",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "market",
+                    "matter"
+                ]
+            },
+            {
+                "filter": "REXA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "St John's Wood",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "extra",
+                    "extract"
+                ]
+            },
+            {
+                "filter": "REYA",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "St John's Wood",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "year",
+                    "February"
+                ]
+            },
+            {
+                "filter": "REAC",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "St John's Wood",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "care",
+                    "create"
+                ]
+            },
+            {
+                "filter": "REAW",
+                "matching_stations": [
+                    "Dollis Hill",
+                    "Pimlico",
+                    "Hillingdon",
+                    "Loughton"
+                ],
+                "top_words": [
+                    "water",
+                    "We are"
+                ]
+            }
+        ],
+        "narrowed_down_filters_execution_time": 0.178955078125
+    }
+]

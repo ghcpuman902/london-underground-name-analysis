@@ -1,13 +1,5 @@
 # 🚇 London Underground Name Fun Project: A Journey Through the Alphabet
 
-**🎯 Explore this chart interactively!**
-
-<img width="1432" alt="Screenshot 2024-08-14 at 04 46 51" src="https://github.com/user-attachments/assets/0dba3315-2d69-4f53-b864-c44ee916ccd0">
-
-👉 **[Visit the interactive chart here!](https://manglekuo.com/works/london-underground-name-analysis)** 👈
-
----
-
 [👋 Hello, Threads Community!](https://www.threads.net/@bowlofchalk/post/C-hKosIopxE) 🎉
 
 Welcome to a quirky and fun exploration of London Underground station names! If you’ve ever pondered the oddities of station name letters—or found yourself wondering about *MACKEREL*—you’re in for a treat. Spoiler alert: **St John's Wood** is the only station on the Tube without any letters from *MACKEREL*. But there’s so much more to uncover!
@@ -16,41 +8,82 @@ Welcome to a quirky and fun exploration of London Underground station names! If 
 
 This project is all about discovering fascinating patterns in the letters of station names. Here’s what we found:
 
-## 🎉 Fun Facts
-
-- **St John's Wood**: The only station on the London Underground network that doesn’t have a single letter from the word *MACKEREL*. A true outlier!
-- **Pimlico** and **Dollis Hill**: These two stations are the only ones that pass the "NEAR" test—no `N`, `E`, `A`, or `R` in their names.
-- **Chigwell**: This station could pass the "ASTRONOMY" test. With no `A`, `S`, `T`, `R`, `O`, `N`, `M`, or `Y` in its name.
-- **Redbridge**: While it doesn’t contain `A`, `N`, `O`, `T`, `S`, `L`, or `C`, we couldn't come up with a meaningful word that it fully avoids. It's a unique outlier in its own right.
-- **Bank** and **Barking**: These two stations are the only ones that pass the "CLOTHES" test—no `C`, `L`, `O`, `T`, `H`, `E`, or `S` in their names.
-- **Belsize Park**: The only station on the network with a `Z`.
-- **St James's Park**, **Willesden Junction**, and **St John's Wood**: These three stations are the only ones that feature a `J`. If you’re a fan of this letter, these are your stops.
-- **Vauxhall**: The only station that boasts both an `X` and a `V`, making it doubly rare and unique on the network.
-- **Brixton**, **Uxbridge**, **Croxley**, **Oxford Circus**, and **Vauxhall**: The exclusive club of stations with an `X`. These stations add a special flair to the Tube map.
-- **Euston Square**, **Russell Square**, **Sloane Square**, **Leicester Square**, **Queen's Park**, **Queensway**, and **Queensbury**: The letter `Q` seems to be reserved only for stations with "Square" or "Queen" in their names.
-- **Oval**: The station with the fewest unique letters—just 4 distinct letters make up its name. A minimalist masterpiece.
-- **Heathrow Terminals 2 & 3**: The station with the most unique letters on the network—an impressive 15 distinct letters. A true alphabet champion!
-  
 ### 🔥 Heatmaps
 
+- **🅰️ Alphabetical Insight:**
+  Ever wondered which letters pop up most often in London Underground stations? This heatmap sorts all station names alphabetically, giving a clear picture of letter frequency.
+
+  ![Alphabetically Sorted Heatmap](london_underground_station_heatmap_alphabetical.png)
+
 - **📈 Frequency Insight:**
-  Here, station names are sorted by how often each letter appears, grouping stations with the most common letters together. **St John's Wood** stands out as the fifth from the bottom.
+  Here, station names are sorted by how often each letter appears, grouping stations with the most common letters together. **St John's Wood** stands out as the fifth from the bottom—a fun twist in the world of Tube stations.
 
   ![Frequency Sorted Heatmap](london_underground_station_heatmap_frequency.png)
 
 - **🔠 Unique Letters Insight:**
-  What about those stations with rare letters? This heatmap flips the frequency order, putting the stations with the rarest letters (like `Z` and `J`) at the bottom.
+  What about those stations with rare letters? This heatmap flips the frequency order, putting the stations with the rarest letters (like `Z` and `J`) at the top.
 
   ![Reverse Frequency Sorted Heatmap](london_underground_station_heatmap_reverse_frequency.png)
 
-- **🅰️ Alphabetical Insight:**
+## 🎉 Fun Facts
 
-  ![Alphabetically Sorted Heatmap](london_underground_station_heatmap_alphabetical.png)
-
-
+- **St John's Wood**: The only station without any letters from *MACKEREL*.
+- **Pimlico** & **Dollis Hill**: No `E`, `R`, `A`, or `N` in their names.
+- **Belsize Park**: The only station with a `Z`.
+- **St James Park**, **Willesden Junction**, & **St John's Wood**: The only stations with a `J`.
 
 ### 📝 Letter Frequency in Station Names
 `E`, `R`, `A`, `N`, `O`, `T`, `S`, `L`, `I`, `H`, `D`, `W`, `G`, `C`, `U`, `B`, `M`, `P`, `K`, `Y`, `F`, `V`, `Q`, `X`, `J`, `Z`
 
-### Coming soon
-Interactive version and version including DLR names and Overground names
+---
+
+## 🧩 Finding the Best Letter Filters
+
+We've developed tools to help find the most interesting letter filters for London Underground station names.
+
+### `txt_to_binary.py`
+
+1. **What it does:**
+   - Reads an ordered list of words/phrases from `130k.txt`.
+   - Converts each word/phrase into a 26-bit binary representation (one bit per letter of the English alphabet).
+   - Encodes these binary masks into a Base64 format.
+   - Outputs a single concatenated Base64 string into `base64.txt`.
+
+2. **How to run it:**
+   ```bash
+   python txt_to_binary.py
+   ```
+   This will generate `base64.txt` which contains the Base64 encoded binary representation of each word in `130k.txt`.
+
+### `find_words.py`
+
+1. **What it does:**
+   - Loads the Base64 encoded data from `base64.txt` (if it doesn't exist, it prompts you to run `txt_to_binary.py`).
+   - Runs `combined_filter_finder` to get unique and narrowed-down filters for specified target stations.
+   - Finds the top 2 (configurable) most frequent words that match these filters.
+   - Appends these words to the original JSON data and outputs the result.
+
+2. **How to run it:**
+   ```bash
+   python find_words.py
+   ```
+   This generates a `final_output.json` file that includes the top words for each filter, helping to create new puzzles or insights.
+
+### Testing and Running
+
+For testing and running the analysis:
+1. **Edit `test.py`:**
+   - Adjust the `target_stations` variable to the stations you want to analyze.
+   - Run the following command to test and find the best filter for each station:
+   ```bash
+   python test.py
+   ```
+
+2. **Run `find_words.py`** to generate the best words from the given station names to make a new puzzle:
+   ```bash
+   python find_words.py
+   ```
+
+---
+
+Thanks for joining the fun! If you're curious to see more or just want to chat about it, don’t forget to check out the original [Threads post](https://www.threads.net/@bowlofchalk/post/C-hKosIopxE)!

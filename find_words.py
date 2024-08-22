@@ -1,0 +1,94 @@
+import os
+import json
+import base64
+import string
+from pathlib import Path
+
+def convert_to_binary_mask(word):
+    binary_mask = 0
+    for char in word.upper():
+        if 'A' <= char <= 'Z':
+            binary_mask |= 1 << (ord(char) - ord('A'))
+    return binary_mask
+
+def sanitize_station_name(station_name):
+    sanitized = ''.join(sorted(set(char for char in station_name.upper() if char in string.ascii_uppercase)))
+    return sanitized
+
+def load_base64_file(file_path='base64.txt'):
+    if not Path(file_path).exists():
+        print(f"Error: {file_path} not found. Please run txt_to_binary.py first.")
+        exit(1)
+    
+    binary_rep_list = bytearray(base64.b64decode(Path(file_path).read_text(encoding='utf-8').strip()))
+    
+    word_list = []
+    binary_word_map = {}
+    with open('130k.txt', 'r', encoding='utf-8') as f:
+        for word, bytes_chunk in zip(f, [binary_rep_list[i:i+4] for i in range(0, len(binary_rep_list), 4)]):
+            word = word.strip()
+            binary_rep = int.from_bytes(bytes_chunk, 'big')
+            word_list.append(word)
+            binary_word_map[word] = binary_rep
+            
+    return word_list, binary_word_map
+
+def find_top_words_for_filters(word_list, binary_word_map, filters, target_stations, top_n=2):
+    results = {}
+
+    target_bits = [convert_to_binary_mask(sanitize_station_name(station)) for station in target_stations]
+
+    for filter_entry in filters:
+        filter_name = filter_entry['filter'] if isinstance(filter_entry, dict) else filter_entry
+        print(f"Processing filter: {filter_name}")  # Debug statement
+        filter_bits = convert_to_binary_mask(filter_name)
+
+        top_words = []
+        for word, binary_mask in binary_word_map.items():
+            if (binary_mask & filter_bits == filter_bits and 
+                all(binary_mask & tb == 0 for tb in target_bits)):
+                top_words.append(word)
+                if len(top_words) == top_n:
+                    break
+
+        results[filter_name] = top_words
+
+    return results
+
+def main():
+    word_list, binary_word_map = load_base64_file()
+
+    import combined_filter_finder
+    target_stations = [
+        "Bank", "Euston", "Queen's Park", "Stanmore",
+        "Swiss Cottage", "Westminster", "White City", "Whitechapel", "Dollis Hill"
+    ]
+    file_paths = ["LND_UG.csv"]  
+    
+    combined_result = combined_filter_finder.combined_filter_finder(file_paths=file_paths, target_stations=target_stations)
+    result_data = json.loads(combined_result)
+
+    for station_data in result_data:
+        print(f"Processing station: {station_data['target_station']}")  # Debug statement
+
+        # Process unique filters
+        unique_filters = station_data['unique_filters']
+        unique_top_words = find_top_words_for_filters(word_list, binary_word_map, unique_filters, [station_data['target_station']])
+        
+        for f in unique_filters:
+            f['top_words'] = unique_top_words[f['filter']]
+
+        # Process narrowed down filters
+        narrowed_down_filters = station_data['narrowed_down_filters']
+        for entry in narrowed_down_filters:
+            narrowed_filter = entry['filter']
+            narrowed_top_words = find_top_words_for_filters(word_list, binary_word_map, [entry], [station_data['target_station']])
+            entry['top_words'] = narrowed_top_words[narrowed_filter]
+    
+    with open('final_output.json', 'w', encoding='utf-8') as f:
+        json.dump(result_data, f, indent=4)
+
+    print(json.dumps(result_data, indent=4))
+
+if __name__ == "__main__":
+    main()
